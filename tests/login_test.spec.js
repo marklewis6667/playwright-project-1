@@ -10,7 +10,7 @@ test('login test 1', async ({ page }) => {
 
 })
 
-test.only('login test 2', async ({ page }) => {
+test('login test 2', async ({ page }) => {
 
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     await page.pause()
